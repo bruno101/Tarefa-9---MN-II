@@ -13,8 +13,8 @@ double f (double x, double y) {
 }
 
 double g (double alpha, double beta) {
-  double coef_J1 = m*n*alpha;
-  return coef_J1*f(40*alpha*cos(beta), 20*alpha*sin(beta));
+  double J1 = m*n*alpha;
+  return J1*f(40*alpha*cos(beta), 20*alpha*sin(beta));
 }
 
 double h (double b, double a) {
